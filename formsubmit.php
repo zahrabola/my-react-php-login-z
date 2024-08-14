@@ -1,5 +1,5 @@
 <?php 
-    header('Access-Control-Allow-Origin: *');
+    header('Access-Control-Allow-Origin: *');///cors - connect to different domains
      
     $conn = new mysqli("localhost","root","","reactusers");
     ///  $conn = new mysqli("localhost","root","","reactusers");
